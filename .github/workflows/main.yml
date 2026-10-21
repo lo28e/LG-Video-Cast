@@ -22,8 +22,12 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@v3
 
-    - name: Make gradlew executable
-      run: chmod +x gradlew
+    - name: Generate Gradle Wrapper if missing
+      run: |
+        if [ ! -f ./gradlew ]; then
+          gradle wrapper
+        fi
+        chmod +x gradlew
 
     - name: Build APK
       run: ./gradlew assembleDebug --stacktrace
