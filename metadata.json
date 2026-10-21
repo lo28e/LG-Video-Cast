@@ -1,0 +1,6 @@
+{
+  "name": "LG Video Cast",
+  "description": "تطبيق متطور لبث وتشغيل فيديوهات الجوال ومقاطع الويب مباشرة إلى شاشة LG C5 والتلفزيونات الذكية عبر تقنيات DLNA وخادم بث سريع بدون تقطيع.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

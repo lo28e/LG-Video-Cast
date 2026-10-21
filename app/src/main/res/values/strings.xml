@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LG Video Cast</string>
+    <string name="tab_local_videos">فيديوهات الجوال</string>
+    <string name="tab_web_cast">بث الويب</string>
+    <string name="tab_remote">جهاز التحكم</string>
+    <string name="tab_settings">إعدادات LG C5</string>
+</resources>
